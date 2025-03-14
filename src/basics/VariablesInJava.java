@@ -6,7 +6,7 @@ public class VariablesInJava {
         int age = 25;
         float percentage = 25.25f;
         char gender = 'M';
-        boolean married = false;
+        boolean married = true;
 
         System.out.println("Name: "+name);
         System.out.println("Age: "+age);
