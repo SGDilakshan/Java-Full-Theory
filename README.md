@@ -100,7 +100,6 @@ This program demonstrates how to use single-line and multi-line comments in Java
 ### .....................................................
 
 ### 🔹4_VariablesInJava.java
-
 This program demonstrates the use of different types of variables in Java.
 
 #### 🔹 Variable Types Used:
@@ -117,7 +116,6 @@ This program demonstrates the use of different types of variables in Java.
 This program helps understand how different data types are used in Java for storing and handling information.
 
 ### .....................................................
-
 ### 🔹5_TypeCasting.java
 
 This program demonstrates **Type Casting** in Java, which is the process of converting one data type into another.
@@ -142,7 +140,6 @@ This program demonstrates **Type Casting** in Java, which is the process of conv
 This program helps in understanding how type conversion works in Java and when to use explicit or implicit casting.  
 
 ### .....................................................
-
 ### 🔹6_ArithmeticOperators.java
 
 This program demonstrates the use of **arithmetic operators** in Java. Arithmetic operators are used to perform mathematical operations on numeric values.
@@ -164,7 +161,6 @@ This program helps understand basic mathematical operations in Java and how to a
 ### .....................................................
 
 ### 🔹7_ArithmeticAssignmentOperators.java
-
 This program demonstrates the use of **arithmetic assignment operators** in Java. These operators perform arithmetic operations and assign the result to the variable in a single step.
 
 #### 🔹 Arithmetic Assignment Operators Used:
@@ -180,5 +176,25 @@ This program demonstrates the use of **arithmetic assignment operators** in Java
 - Prints the updated value after each operation.
 
 This program helps understand how assignment operators simplify arithmetic calculations in Java.  
+
+### .....................................................
+### 🔹8_RelationalOperators.java
+
+This program demonstrates the use of **relational operators** in Java. Relational operators are used to compare values and return a boolean result (`true` or `false`).
+
+#### 🔹 Relational Operators Used:
+1. **Equal to (`==`)** → Checks if two values are equal.
+2. **Not equal to (`!=`)** → Checks if two values are not equal.
+3. **Less than (`<`)** → Checks if the first value is smaller than the second.
+4. **Greater than (`>`)** → Checks if the first value is larger than the second.
+5. **Less than or equal to (`<=`)** → Checks if the first value is smaller than or equal to the second.
+6. **Greater than or equal to (`>=`)** → Checks if the first value is larger than or equal to the second.
+
+#### 🔹 Program Functionality:
+- Declares and initializes two integer variables.
+- Compares these values using relational operators.
+- Prints the boolean results (`true` or `false`) for each comparison.
+
+This program helps in understanding how relational operators work and their importance in decision-making (e.g., `if` conditions) in Java.  
 
 ### .....................................................
