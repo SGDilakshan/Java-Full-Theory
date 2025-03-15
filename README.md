@@ -434,3 +434,27 @@ This program demonstrates the use of **grouped `case` labels** within a `switch`
 This program shows how **grouped `case` labels** in a `switch` statement can simplify code when multiple values need to trigger the same behavior.
 
 ### .....................................................
+## 🔹 Loops
+
+### 🔹20_WhileLoop.java
+This program demonstrates the use of a **while loop** in Java. It repeatedly prints numbers from 1 up to a user-defined limit.
+
+#### 🔹 Key Concepts:
+- **While Loop**:  
+  A **while loop** repeatedly executes a block of code as long as a specified condition is true. In this case, the loop continues to run as long as `i` is less than or equal to the `limit` provided by the user.
+
+- **Condition Checking**:  
+  The loop starts by checking if the condition `i <= limit` is true. If true, the block of code inside the loop is executed. After each iteration, the value of `i` is incremented (`i++`) to ensure progress towards meeting the exit condition.
+
+- **User Input**:  
+  The program uses the `Scanner` class to take an integer input (`limit`) from the user, which determines how many times the loop will run.
+
+- **Output**:  
+  The program prints numbers starting from 1 up to the value of `limit`. The numbers are printed one by one on each iteration of the loop.
+
+- **Exit Condition**:  
+  Once `i` exceeds the `limit`, the loop condition becomes false (`i > limit`), causing the loop to stop executing.
+
+This program illustrates how a **while loop** can be used to execute a set of instructions repeatedly based on a dynamic condition.
+
+### .....................................................
