@@ -73,6 +73,7 @@ For queries or contributions, reach out via:
 ### ..............................................................................................................................
 
 ## JAVA Full Theory - Short Notes
+## 🔹 Basics
 
 ### 🔹 1_HelloWorld.java
 The **HelloWorld.java** program is the simplest Java application that introduces the basic structure of a Java program. It contains a class, a `main` method, and a print statement.
@@ -179,7 +180,6 @@ This program helps understand how assignment operators simplify arithmetic calcu
 
 ### .....................................................
 ### 🔹8_RelationalOperators.java
-
 This program demonstrates the use of **relational operators** in Java. Relational operators are used to compare values and return a boolean result (`true` or `false`).
 
 #### 🔹 Relational Operators Used:
@@ -199,7 +199,6 @@ This program helps in understanding how relational operators work and their impo
 
 ### .....................................................
 ### 🔹9_LogicalOperators.java
-
 This program demonstrates the use of **logical operators** in Java. Logical operators are used to combine multiple conditions and return a boolean result (`true` or `false`).
 
 #### 🔹 Logical Operators Used:
@@ -217,12 +216,10 @@ This program helps in understanding how logical operators work and how they are 
 
 ### .....................................................
 ### 🔹10_ConditionalOperators.java
-
 This program demonstrates the use of the **conditional (ternary) operator** in Java. The ternary operator is a shorthand for `if-else` statements and is used to make quick decisions based on a condition.
 
 ### .....................................................
 ### 🔹11_UnaryOperators.java
-
 This program demonstrates the use of **unary operators** in Java. Unary operators operate on a single operand and are commonly used for **incrementing, decrementing, and negation**.
 
 #### 🔹 Unary Operators Used:
@@ -241,7 +238,6 @@ This program demonstrates the use of **unary operators** in Java. Unary operator
 
 ### .....................................................
 ### 🔹12_BitwiseAndShiftOperators.java
-
 This program demonstrates the use of **bitwise and shift operators** in Java. These operators perform operations at the **binary level**, manipulating individual bits of integers.
 
 #### 🔹 Bitwise Operators Used:
@@ -266,5 +262,51 @@ This program demonstrates the use of **bitwise and shift operators** in Java. Th
 - Declares two integer variables.
 - Performs **bitwise operations** (`&`, `|`, `^`, `~`) on them.
 - Prints the results to observe how **bitwise operators** work.
+
+### .....................................................
+### 🔹13_ScannerClassExample.java
+This program demonstrates how to use the **`Scanner`** class in Java to obtain input from the user and perform a simple mathematical calculation with **floating-point numbers**.
+
+#### 🔹 Scanner Methods Used:
+- **`scanner.nextFloat()`**: This method is used to read floating-point numbers from the user.
+- Other common methods include **`nextInt()`**, **`nextDouble()`**, **`nextLine()`**, and **`next()`**, which are used to read different data types and strings.
+
+#### 🔹 Scanner Class Methods Overview:
+- **`nextInt()`**: Reads an integer input.
+- **`nextDouble()`**: Reads a double input.
+- **`nextLine()`**: Reads an entire line of input as a string.
+- **`next()`**: Reads the next token (word) as a string.
+- **`hasNext()`**: Checks if there is another token to read.
+
+#### 🔹 Key Concepts:
+- **Creating a Scanner object**: `Scanner scanner = new Scanner(System.in);` allows the program to get input from the user.
+- **Mathematical Calculation**: The formula `(a + b)^2 = a^2 + b^2 + 2ab` is used here to demonstrate how floating-point arithmetic works.
+- **Closing the Scanner**: It’s important to call `scanner.close()` when done to release the resources.
+
+#### 🔹 Other Usage of Scanner Class:
+- `Scanner` can be used to read input not only from the console but also from other sources like files or strings.
+- It’s useful for parsing various types of data, such as numbers, strings, and lines of text.
+
+This program is a simple illustration of reading input, performing a calculation, and outputting the result in Java.
+
+### .....................................................
+## 🔹Control Structures
+
+### 🔹14_IFStatement.java
+This program demonstrates the use of the **`if`** statement in Java to check a condition and execute a block of code based on the result.
+
+#### 🔹 Key Concepts:
+- **`if` Statement**:  
+  The `if` statement checks whether a given condition is true. If the condition is true, the code block inside the `if` statement executes.
+
+- **`Scanner` Class**:  
+  The program uses the `Scanner` class to take input from the user, which is stored in the `age` variable.
+
+#### 🔹 Additional Notes:
+- If the user enters an age less than 18, the program does not print anything, as there is no `else` clause.
+- **`Scanner` class methods** like `nextInt()` are used to read numerical input.
+- The program could be extended with an `else` statement to provide feedback for users who are under 18.
+
+This program is a basic demonstration of how the **`if`** statement can be used to check conditions and control the flow of a program.
 
 ### .....................................................
